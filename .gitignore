@@ -22,3 +22,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+
+"build": "tailwindcss -i ./src/index.css -o ./dist/output.css --watch",
